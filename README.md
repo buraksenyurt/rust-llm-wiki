@@ -58,3 +58,13 @@ Buna göre `Copilot` wiki içeriklerindeki bağlantıları, formatlamayı kontro
 Bu kullanımda işin güzel yanı içerikteki ilişkilerin **Obsidian** üzerinden grafiksel olarak gösterimidir. Ortada bir vektör veritabanı, maliyetli rag hattı, embedding işlemleri vs olmadığına dikkat edelim.
 
 ![[Runtime_04.png]]
+
+## Görüşler
+
+Diyelim ki yeni bir programlama dilini öğrenmeye çalışıyorum. Bu amaçlar özet notlarım, örnek kod dosyalarım, grafik çizimleri, çeşitli referans pdf'lerim var. Tüm bu öğretim yolculuğunda LLM odaklı bir wiki'ye ihtiyacım varsa pekala işime yarar. Peki ya bir kurum içerisindeki binlerce analiz dokümanı, wireframe, kod parçası bu senaryo özelinde değerlendirilebilir mi? Buraya bir soru işareti bırakmak yerinde olacaktır. Bana kalırsa;
+
+- Bireysel ölçekte değerlendirilebilecek çalışmalar için ideal bir yaklaşım. Bir **RAG(Retreival Augmented Generation)** hattı kurmama gerek yok. Benzer şekilde iş dünyasında toplantı notları, transkript içerikleri ile ilgili bir senaryoda pekala işe yarar.
+- Diğer yandan bu sistemin işe yaraması için **Obsidian** tek başına yeterli değil. Bir yapay zeka ajanı gerekiyor *(Claude Code, Copilot vb)*
+- Diğer yandan wiki içeriğinin kalitesi doğrudan raw içeriğinin kalitesine bağlı. Kendi yazılarımı ele aldığım bu senarydaki yazılarımın ne kadar iyi olduğu tartışılır.
+- raw içeriğindeki organizasyonun kalitesi de bizim elimizde. Sadece rust programlama dili ile ilgili parçaların arasına `Sushi Nasıl yapılır?` gibisinden bir doküman da kaçabilir :D
+- **Linting** kısmı çok önemli olabilir. Sonuçta işin içerisine bir Yapay Zeka giriyor ve ne derler bilirsiniz; "Yapay Zeka hata yapabilir, lütfen sonuçları kontrol edin."
