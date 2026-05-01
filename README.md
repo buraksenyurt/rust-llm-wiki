@@ -27,7 +27,7 @@ Daha sonra Copilot CLI arabiriminden `\init` komutunu kullanarak `.github\copilo
 raw klasöründeki makaleleri oku ve wiki'yi güncelle.
 ```
 
-![[Runtime_00.png]]
+![Runtime_00.png](Runtime_00.png)
 
 Sonrasında şu soruyu sordum.
 
@@ -37,15 +37,15 @@ Rust ve zig dillerinde değişkenler nasıl tanımlanır? Farklar nelerdir?
 
 Buradaki dikkat edilmesi gereken nokta ajanın doğrudan makaleleri araştırmak yerine öncelikle wiki içeriğine gitmesidir.
 
-![[Runtime_01.png]]
+![Runtime_01.png](Runtime_01.png)
 
 Hatta kendince bir özeti de buradaki içeriklere göre çıkartmış durumda.
 
-![[Runtime_02.png]]
+![Runtime_02.png](Runtime_02.png)
 
-Tabii burada ajanın raw içerisindeki bilgilere bakarak bir sonuç ürettiğini ve oradaki bilgilerin doğruluğuna göre bu sonuçların değerlendirilmesi gerektiğini unutmayalım. 
+Tabii burada ajanın raw içerisindeki bilgilere bakarak bir sonuç ürettiğini ve oradaki bilgilerin doğruluğuna göre bu sonuçların değerlendirilmesi gerektiğini unutmayalım.
 
-`raw` klasörüne yeni bir içerik eklediğimizde de `wiki` içeriğini güncelletebiliriz. Bununla birlikte `wiki` içeriğinin sağlıklık kalması için `linting` işlemi de uygulatabiliriz. 
+`raw` klasörüne yeni bir içerik eklediğimizde de `wiki` içeriğini güncelletebiliriz. Bununla birlikte `wiki` içeriğinin sağlıklık kalması için `linting` işlemi de uygulatabiliriz.
 
 ```text
 Wiki içeriklerinde lint işlemini uygula.
@@ -53,11 +53,11 @@ Wiki içeriklerinde lint işlemini uygula.
 
 Buna göre `Copilot` wiki içeriklerindeki bağlantıları, formatlamayı kontrol edecek ve gerekli düzeltmeleri yapacaktır.
 
-![[Runtime_03.png]]
+![Runtime_03.png](Runtime_03.png)
 
 Bu kullanımda işin güzel yanı içerikteki ilişkilerin **Obsidian** üzerinden grafiksel olarak gösterimidir. Ortada bir vektör veritabanı, maliyetli rag hattı, embedding işlemleri vs olmadığına dikkat edelim.
 
-![[Runtime_04.png]]
+![Runtime_04.png](Runtime_04.png)
 
 ## Görüşler
 
