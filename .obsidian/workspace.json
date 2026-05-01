@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4855539946accea9",
+        "id": "538769e73d58a53e",
         "type": "tabs",
         "children": [
           {
-            "id": "abe007d689b6f19e",
+            "id": "9dfe65f22d6715b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -180,8 +180,30 @@
       "bases:Create new base": false
     }
   },
-  "active": "abe007d689b6f19e",
+  "active": "9dfe65f22d6715b7",
   "lastOpenFiles": [
+    "Runtime_04.png",
+    "Runtime_03.png",
+    "Runtime_02.png",
+    "Runtime_01.png",
+    "Runtime_00.png",
+    "README.md",
+    "wiki/enum-veri-turunun-rust-tarafinda-etkili-bir-kullanimi.md",
+    "wiki/rust-ile-kodlama-idmanlari-ileri-seviye.md",
+    "wiki/bellek-optimizasyonu.md",
+    "wiki/index.md",
+    "wiki/log.md",
+    "wiki/csharp-rust-zig-karsilastirmalari.md",
+    "wiki/eszamanlilik-ve-paylasilan-durum.md",
+    "wiki/enum-ile-durum-modelleme.md",
+    "wiki/bellek-guvenligi.md",
+    "wiki/sahiplik-ve-borclanma.md",
+    "wiki/bunu-bir-dene-01-coklu-thread-ortamlarinda-ortak-veriyi-degistirmek-c-rust-ve-zig.md",
+    "wiki/bunu-bir-dene-00-metot-argumanlarinda-degisiklik-c-rust-ve-zig.md",
+    "wiki/rust-ile-kodlama-idmanlari-orta-seviye.md",
+    "wiki/rust-ile-kodlama-idmanlari-baslangic-seviyesi.md",
+    "wiki/bellek-yonetiminde-verimlilik-icin-ipuclari-rust-odakli.md",
+    "wiki/rust-ve-guvenli-bellek-yonetimi-hakkinda.md",
     "raw/_posts/2026-02-15-bunu-bir-dene-01-coklu-thread-ortamlarinda-ortak-veriyi-degistirmek-c-rust-ve-zig.md",
     "raw/_posts/2026-01-15-bunu-bir-dene-00-metot-argumanlarinda-degisiklik-c-rust-ve-zig.md",
     "raw/_posts/2025-12-01-rust-ile-kodlama-idmanlari-ileri-seviye.md",
@@ -189,10 +211,6 @@
     "raw/_posts/2025-10-25-rust-ile-kodlama-idmanlari-baslangic-seviyesi.md",
     "raw/_posts/2025-04-03-bellek-yonetiminde-verimlilik-icin-ipuclari-rust-odakli.md",
     "raw/_posts/2025-02-14-rust-ve-guvenli-bellek-yonetimi-hakkinda.md",
-    "raw/_posts/2025-02-12-enum-veri-turunun-rust-tarafinda-etkili-bir-kullanimi.md",
-    "wiki/index.md",
-    "wiki/log.md",
-    "COPILOT.md",
-    "README.md"
+    "raw/_posts/2025-02-12-enum-veri-turunun-rust-tarafinda-etkili-bir-kullanimi.md"
   ]
 }

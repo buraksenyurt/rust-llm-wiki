@@ -18,3 +18,43 @@ Kaynaklardan hareketle üç klasör oluşturdum.
 /wiki -- Hem indekslenmiş wiki içerikleri hem de güncelleme logları burada tutuluyor
 COPILOT.md -- Normalda CLAUDE.md olarak yazılan talimatların yer aldığı dosya
 ```
+
+## Denemeler
+
+Daha sonra Copilot CLI arabiriminden `\init` komutunu kullanarak `.github\copilot-instructions.md` dosyasını oluşturdum. Copilot özellikle `COPILOT.md` içeriğine bakarak gerekli düzenlemeleri yaptı. Ardından şu promptu kullandım.
+
+```text
+raw klasöründeki makaleleri oku ve wiki'yi güncelle.
+```
+
+![[Runtime_00.png]]
+
+Sonrasında şu soruyu sordum.
+
+```text
+Rust ve zig dillerinde değişkenler nasıl tanımlanır? Farklar nelerdir?
+```
+
+Buradaki dikkat edilmesi gereken nokta ajanın doğrudan makaleleri araştırmak yerine öncelikle wiki içeriğine gitmesidir.
+
+![[Runtime_01.png]]
+
+Hatta kendince bir özeti de buradaki içeriklere göre çıkartmış durumda.
+
+![[Runtime_02.png]]
+
+Tabii burada ajanın raw içerisindeki bilgilere bakarak bir sonuç ürettiğini ve oradaki bilgilerin doğruluğuna göre bu sonuçların değerlendirilmesi gerektiğini unutmayalım. 
+
+`raw` klasörüne yeni bir içerik eklediğimizde de `wiki` içeriğini güncelletebiliriz. Bununla birlikte `wiki` içeriğinin sağlıklık kalması için `linting` işlemi de uygulatabiliriz. 
+
+```text
+Wiki içeriklerinde lint işlemini uygula.
+```
+
+Buna göre `Copilot` wiki içeriklerindeki bağlantıları, formatlamayı kontrol edecek ve gerekli düzeltmeleri yapacaktır.
+
+![[Runtime_03.png]]
+
+Bu kullanımda işin güzel yanı içerikteki ilişkilerin **Obsidian** üzerinden grafiksel olarak gösterimidir. Ortada bir vektör veritabanı, maliyetli rag hattı, embedding işlemleri vs olmadığına dikkat edelim.
+
+![[Runtime_04.png]]
