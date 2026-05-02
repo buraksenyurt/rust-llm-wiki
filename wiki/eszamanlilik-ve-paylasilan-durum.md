@@ -22,3 +22,6 @@
 - [[kanallar-ve-thread-haberlesmesi]]
 - [[bellek-optimizasyonu]]
 - [[csharp-rust-zig-karsilastirmalari]]
+- [[rust-pratikleri-multithreading]]
+- [[rust-pratikleri-ayni-anda-sadece-tek-bir-degistirilebilir-referans-olabilir]]
+- [[bunu-bir-dene-01-coklu-thread-ortamlarinda-ortak-veriyi-degistirmek-c-rust-ve-zig]]

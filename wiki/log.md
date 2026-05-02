@@ -10,3 +10,8 @@
 - `raw/_posts/` altındaki 2021-2022 dönemine ait on altı makale okunarak her biri için kaynak özeti sayfası oluşturuldu.
 - Sahiplik, eşzamanlılık ve enum modelleme sayfaları genişletildi; loglama, dokümantasyon, kanallar, GDB, lifetimes, Serde, TCP/HTTP, OOP, state pattern ve terminal uygulamaları için yeni kavram sayfaları eklendi.
 - `wiki/index.md` dosyası yeni kavram sayfaları, kaynak özetleri ve genişletilmiş öğrenme akışı ile güncellendi.
+## 2026-05-02
+
+- Orphan denetiminde `programcidan-programciya-rust`, `rust-pratikleri-ayni-anda-sadece-tek-bir-degistirilebilir-referans-olabilir`, `rust-pratikleri-value-moved-here` ve `bunu-bir-dene-00-metot-argumanlarinda-degisiklik-c-rust-ve-zig` sayfalarının diğer wiki sayfalarından açık bağlantı almadığı tespit edildi.
+- Sahiplik, eşzamanlılık ve karşılaştırma eksenli kavram sayfalarına yeni wikilink'ler eklenerek orphan durumları giderildi; ilgili kaynak özetleri arasında daha doğal geri bağlantılar kuruldu.
+- `wiki/index.md` dosyasına denetim notu eklendi ve etkilenen kaynak özetlerinin açıklamaları yeni değerlendirmeye göre netleştirildi.

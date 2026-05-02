@@ -19,3 +19,4 @@
 
 - [[eszamanlilik-ve-paylasilan-durum]]
 - [[kanallar-ve-thread-haberlesmesi]]
+- [[rust-pratikleri-ayni-anda-sadece-tek-bir-degistirilebilir-referans-olabilir]]

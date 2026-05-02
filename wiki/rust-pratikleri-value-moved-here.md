@@ -19,3 +19,5 @@
 
 - [[sahiplik-ve-borclanma]]
 - [[gdb-ile-debugging]]
+- [[programcidan-programciya-rust]]
+- [[rust-pratikleri-degiskenleri-kopyalayarak-veya-referans-olarak-tasimak]]

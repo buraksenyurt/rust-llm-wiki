@@ -20,3 +20,5 @@
 - [[eszamanlilik-ve-paylasilan-durum]]
 - [[kanallar-ve-thread-haberlesmesi]]
 - [[sahiplik-ve-borclanma]]
+- [[rust-pratikleri-multithreading]]
+- [[bunu-bir-dene-01-coklu-thread-ortamlarinda-ortak-veriyi-degistirmek-c-rust-ve-zig]]

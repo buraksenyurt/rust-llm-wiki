@@ -19,7 +19,11 @@
 
 ## İlgili sayfalar
 
+- [[programcidan-programciya-rust]]
 - [[bellek-guvenligi]]
 - [[lifetimes-ve-string-slice]]
 - [[eszamanlilik-ve-paylasilan-durum]]
 - [[gdb-ile-debugging]]
+- [[rust-pratikleri-value-moved-here]]
+- [[rust-pratikleri-degiskenleri-kopyalayarak-veya-referans-olarak-tasimak]]
+- [[bunu-bir-dene-00-metot-argumanlarinda-degisiklik-c-rust-ve-zig]]

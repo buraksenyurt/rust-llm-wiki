@@ -1,5 +1,7 @@
 # Rust LLM Wiki
 
+> 2026-05-02 orphan bağlantı denetimi sonrası kaynak özetleri ile kavram sayfaları arasındaki çapraz bağlar güçlendirildi.
+
 ## Kavram sayfaları
 
 - [[sahiplik-ve-borclanma]] — Ownership, borrowing, move ve açık mutasyon niyetinin toplu özeti (kaynak: 2021-12-24-programcidan-programciya-rust.md) (kaynak: 2022-05-22-rust-pratikleri-value-moved-here.md).
@@ -21,7 +23,7 @@
 
 ## Kaynak özetleri
 
-- [[programcidan-programciya-rust]] — Rust'a girişte ownership, bellek güvenliği ve temel veri modeli özeti (kaynak: 2021-12-24-programcidan-programciya-rust.md).
+- [[programcidan-programciya-rust]] — Rust'a girişte ownership, bellek güvenliği, `String`/`&str` ve temel veri modeli özeti (kaynak: 2021-12-24-programcidan-programciya-rust.md).
 - [[rust-pratikleri-loglama]] — `env_logger` ve log seviyeleriyle terminal loglama pratiği (kaynak: 2022-01-30-rust-pratikleri-loglama.md).
 - [[rust-pratikleri-multithreading]] — `thread::spawn` ve `join` ile temel thread akışı (kaynak: 2022-02-06-rust-pratikleri-multithreading.md).
 - [[rust-pratikleri-dokumantasyon]] — Dokümantasyon yorumları, `cargo doc` ve doctest kullanımı (kaynak: 2022-02-13-rust-pratikleri-dokumantasyon.md).
@@ -30,20 +32,20 @@
 - [[rust-pratikleri-lifetimes-mevzusu]] — Lifetime bildirimi ve `String`-`&str` seçimi (kaynak: 2022-03-06-rust-pratikleri-lifetimes-mevzusu.md).
 - [[rust-pratikleri-serde-json-ve-biraz-eglence]] — Serde ile JSON okuma ve CLI filtreleme pratiği (kaynak: 2022-03-13-rust-pratikleri-serde-json-ve-biraz-eglence.md).
 - [[rust-pratikleri-http-sunucusu-yazmak-yazmaya-calismak]] — TCP üstünde basit HTTP request/response işleme denemesi (kaynak: 2022-03-20-rust-pratikleri-http-sunucusu-yazmak-yazmaya-calismak.md).
-- [[rust-pratikleri-ayni-anda-sadece-tek-bir-degistirilebilir-referans-olabilir]] — Arc ve Mutex ile güvenli paylaşılan mutasyon (kaynak: 2022-04-03-rust-pratikleri-ayni-anda-sadece-tek-bir-degistirilebilir-referans-olabilir.md).
+- [[rust-pratikleri-ayni-anda-sadece-tek-bir-degistirilebilir-referans-olabilir]] — Arc, Mutex ve alternatif kilit araçlarıyla güvenli paylaşılan mutasyon (kaynak: 2022-04-03-rust-pratikleri-ayni-anda-sadece-tek-bir-degistirilebilir-referans-olabilir.md).
 - [[rust-pratikleri-wordle-oyunu]] — Terminal Wordle örneğinde oyun döngüsü ve testler (kaynak: 2022-04-10-rust-pratikleri-wordle-oyunu.md).
 - [[rust-pratikleri-degiskenleri-kopyalayarak-veya-referans-olarak-tasimak]] — Copy, Clone ve referans geçirme tercihleri (kaynak: 2022-04-17-rust-pratikleri-degiskenleri-kopyalayarak-veya-referans-olarak-tasimak.md).
 - [[rust-pratikleri-oop]] — Rust'ta OOP kavramlarının struct, trait ve composition ile yorumu (kaynak: 2022-04-24-rust-pratikleri-oop.md).
 - [[rust-pratikleri-trait-objects]] — `dyn Trait` ile heterojen koleksiyon ve runtime polymorphism (kaynak: 2022-05-01-rust-pratikleri-trait-objects.md).
 - [[rust-pratikleri-state-tasarim-kalibi]] — State pattern ile durum geçişlerini kontrollü yönetme örneği (kaynak: 2022-05-15-rust-pratikleri-state-tasarim-kalibi.md).
-- [[rust-pratikleri-value-moved-here]] — Move semantiği ve sahipliği geri kazanma seçenekleri (kaynak: 2022-05-22-rust-pratikleri-value-moved-here.md).
+- [[rust-pratikleri-value-moved-here]] — Move semantiği, stack-heap ilişkisi ve sahipliği geri kazanma seçenekleri (kaynak: 2022-05-22-rust-pratikleri-value-moved-here.md).
 - [[enum-veri-turunun-rust-tarafinda-etkili-bir-kullanimi]] — Rust enum'ları ile servis durum modelleme örneği (kaynak: 2025-02-12-enum-veri-turunun-rust-tarafinda-etkili-bir-kullanimi.md).
 - [[rust-ve-guvenli-bellek-yonetimi-hakkinda]] — Klasik bellek hataları üzerinden Rust'ın güvenlik yaklaşımı (kaynak: 2025-02-14-rust-ve-guvenli-bellek-yonetimi-hakkinda.md).
 - [[bellek-yonetiminde-verimlilik-icin-ipuclari-rust-odakli]] — Bellek verimliliği ve performans için teknikler (kaynak: 2025-04-03-bellek-yonetiminde-verimlilik-icin-ipuclari-rust-odakli.md).
 - [[rust-ile-kodlama-idmanlari-baslangic-seviyesi]] — Erken seviye Rust alışkanlıkları ve sık hatalar (kaynak: 2025-10-25-rust-ile-kodlama-idmanlari-baslangic-seviyesi.md).
 - [[rust-ile-kodlama-idmanlari-orta-seviye]] — Modüler tasarım, iterator, dönüşüm ve hata yönetimi pratikleri (kaynak: 2025-11-03-rust-ile-kodlama-idmanlari-orta-seviye.md).
 - [[rust-ile-kodlama-idmanlari-ileri-seviye]] — Unsafe soyutlamalar, typestate, anyhow ve eşzamanlılık garantileri (kaynak: 2025-12-01-rust-ile-kodlama-idmanlari-ileri-seviye.md).
-- [[bunu-bir-dene-00-metot-argumanlarinda-degisiklik-c-rust-ve-zig]] — C#, Rust ve Zig'de metot argümanları ile durum değiştirme farkları (kaynak: 2026-01-15-bunu-bir-dene-00-metot-argumanlarinda-degisiklik-c-rust-ve-zig.md).
+- [[bunu-bir-dene-00-metot-argumanlarinda-degisiklik-c-rust-ve-zig]] — C#, Rust ve Zig'de metot argümanları, `&mut` ve pointer üzerinden durum değiştirme farkları (kaynak: 2026-01-15-bunu-bir-dene-00-metot-argumanlarinda-degisiklik-c-rust-ve-zig.md).
 - [[bunu-bir-dene-01-coklu-thread-ortamlarinda-ortak-veriyi-degistirmek-c-rust-ve-zig]] — Çoklu thread ortamında paylaşılan veri yönetimi karşılaştırması (kaynak: 2026-02-15-bunu-bir-dene-01-coklu-thread-ortamlarinda-ortak-veriyi-degistirmek-c-rust-ve-zig.md).
 
 ## Öğrenme akışı

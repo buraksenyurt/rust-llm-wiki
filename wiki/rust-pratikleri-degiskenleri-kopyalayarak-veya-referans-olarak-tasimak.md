@@ -19,3 +19,4 @@
 
 - [[sahiplik-ve-borclanma]]
 - [[gdb-ile-debugging]]
+- [[rust-pratikleri-value-moved-here]]

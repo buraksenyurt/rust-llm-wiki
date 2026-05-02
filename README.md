@@ -86,6 +86,21 @@ devamı da var...
 etkileyici. Burada şu an için tek sorun örneğin doğru ama struct, trait vb enstrüman isimlendirmelerinin Türkçe yapılmış olması. Normalde blog içerisinde bu örnekler İngilizce isimlendirmelerden oluşuyor. 
 
 > **Gözlem:** Session içerisinde `Copilot` baktığı bazı tekrarlı işleri belleğe kayıt etmek istediğini belirtti. Bunu kabul ettikten sonra Wiki sayfaları üzerinden cevaplama süreleri de oldukça hızlandı.
+
+Çalışma sırasında fark ettiğim bir şey de öksüz dokümanlar *(orphans docs)* Bunu *obsidian*'ın **Graph View** sekmesinde fark ettim. `Raw` içerisinde değerlendirilmiş ama hiçbir başka kavramla ilişkilendirilememiş dosyalar vardı.
+
+![[Runtime_08.png]]
+
+Bunun üzerine Copilot'a aşağıdaki prompt'u girerek wiki içeriğini tekrardan değerlendirmesini istedim.
+
+```text
+ Herhangi bir şekilde işlenmemiş sayfaları (orphan docs) tespit edip tekrardan değerlendirebilir misin? Bu yeni 
+  değerlendirmeye göre wiki'yi de güncelleyelim.
+```
+
+![[Runtime_09.png]]
+
+Bu pratiklerle `wiki` içeriğini pekala daha kaliteli hale getirmek mümkün olabilir.
 ## Görüşler
 
 Diyelim ki yeni bir programlama dilini öğrenmeye çalışıyorum. Bu amaçlar özet notlarım, örnek kod dosyalarım, grafik çizimleri, çeşitli referans pdf'lerim var. Tüm bu öğretim yolculuğunda LLM odaklı bir wiki'ye ihtiyacım varsa pekala işime yarar. Peki ya bir kurum içerisindeki binlerce analiz dokümanı, wireframe, kod parçası bu senaryo özelinde değerlendirilebilir mi? Buraya bir soru işareti bırakmak yerinde olacaktır. Bana kalırsa;

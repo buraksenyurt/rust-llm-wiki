@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6e11b12c94fce3d0",
+        "id": "336511ce6550b512",
         "type": "tabs",
         "children": [
           {
-            "id": "23dd4529f506df53",
+            "id": "d9d345d962c0d438",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/rust-pratikleri-channels.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rust-pratikleri-channels"
+              "title": "README"
             }
           }
         ]
@@ -180,10 +180,23 @@
       "bases:Create new base": false
     }
   },
-  "active": "23dd4529f506df53",
+  "active": "d9d345d962c0d438",
   "lastOpenFiles": [
-    "wiki/log.md",
+    "Runtime_09.png",
     "README.md",
+    "Runtime_08.png",
+    "raw/_posts/2025-02-12-enum-veri-turunun-rust-tarafinda-etkili-bir-kullanimi.md",
+    "wiki/bellek-guvenligi.md",
+    "wiki/programcidan-programciya-rust.md",
+    "wiki/rust-pratikleri-dokumantasyon.md",
+    "wiki/rust-pratikleri-degiskenleri-kopyalayarak-veya-referans-olarak-tasimak.md",
+    "wiki/loglama-ve-gozlemlenebilirlik.md",
+    "wiki/enum-ile-durum-modelleme.md",
+    "wiki/bunu-bir-dene-01-coklu-thread-ortamlarinda-ortak-veriyi-degistirmek-c-rust-ve-zig.md",
+    "wiki/bunu-bir-dene-00-metot-argumanlarinda-degisiklik-c-rust-ve-zig.md",
+    "COPILOT.md",
+    "wiki/rust-pratikleri-channels.md",
+    "wiki/log.md",
     "Runtime_07.png",
     "Runtime_06.png",
     "Runtime_05.png",
@@ -191,32 +204,18 @@
     "wiki/rust-pratikleri-state-tasarim-kalibi.md",
     "wiki/rust-pratikleri-trait-objects.md",
     "wiki/rust-pratikleri-oop.md",
-    "wiki/rust-pratikleri-degiskenleri-kopyalayarak-veya-referans-olarak-tasimak.md",
     "wiki/rust-pratikleri-wordle-oyunu.md",
     "wiki/rust-pratikleri-ayni-anda-sadece-tek-bir-degistirilebilir-referans-olabilir.md",
     "wiki/rust-pratikleri-http-sunucusu-yazmak-yazmaya-calismak.md",
     "wiki/rust-pratikleri-serde-json-ve-biraz-eglence.md",
     "wiki/rust-pratikleri-lifetimes-mevzusu.md",
     "wiki/rust-pratikleri-gdb-ile-debug-islemleri.md",
-    "wiki/rust-pratikleri-channels.md",
-    "wiki/rust-pratikleri-dokumantasyon.md",
     "wiki/rust-pratikleri-multithreading.md",
     "wiki/rust-pratikleri-loglama.md",
-    "wiki/programcidan-programciya-rust.md",
-    "wiki/terminal-uygulamalari-ve-oyun-dongusu.md",
-    "wiki/state-tasarim-kalibi-ve-durum-gecisleri.md",
-    "wiki/oop-ve-polimorfizm.md",
-    "wiki/tcp-ve-http-sunucusu.md",
-    "wiki/serde-ve-json.md",
-    "wiki/lifetimes-ve-string-slice.md",
-    "wiki/gdb-ile-debugging.md",
-    "wiki/kanallar-ve-thread-haberlesmesi.md",
     "raw/assets/images/2021/cover.png",
     "raw/assets/images/2021/rust45_1.png",
     "Runtime_04.png",
     "Runtime_03.png",
-    "Runtime_02.png",
-    "Runtime_01.png",
-    "Runtime_00.png"
+    "Runtime_02.png"
   ]
 }

@@ -4,7 +4,7 @@
 
 **Kaynaklar**: `2025-02-12-enum-veri-turunun-rust-tarafinda-etkili-bir-kullanimi.md`, `2026-01-15-bunu-bir-dene-00-metot-argumanlarinda-degisiklik-c-rust-ve-zig.md`, `2026-02-15-bunu-bir-dene-01-coklu-thread-ortamlarinda-ortak-veriyi-degistirmek-c-rust-ve-zig.md`
 
-**Son güncelleme**: 2026-05-01
+**Son güncelleme**: 2026-05-02
 
 ---
 
@@ -20,3 +20,5 @@
 - [[sahiplik-ve-borclanma]]
 - [[enum-ile-durum-modelleme]]
 - [[eszamanlilik-ve-paylasilan-durum]]
+- [[bunu-bir-dene-00-metot-argumanlarinda-degisiklik-c-rust-ve-zig]]
+- [[bunu-bir-dene-01-coklu-thread-ortamlarinda-ortak-veriyi-degistirmek-c-rust-ve-zig]]
