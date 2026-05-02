@@ -59,6 +59,33 @@ Bu kullanımda işin güzel yanı içerikteki ilişkilerin **Obsidian** üzerind
 
 ![Runtime_04.png](Runtime_04.png)
 
+## Güncellemeler
+
+Bir süre sonra `raw` klasörüne yeni dokümanlar ekledim ve `Copilot`'a aşağıdaki prompt' u vererek wiki'yi güncellemesini istedim.
+
+```text
+Yeni blog post girdileri ekledim. Buna göre  wiki'yi günceller misin?
+```
+
+Bu yeni talebe istinaden öncelike `COPILOT.md` dosyasını okuyarak işe başlaması daha önceden belirlenen talimatlara bağlı kalarak hareket ettiğini ispat eder nitelikteydi. Tabii var olan dokümanlar ile yeni eklenen dokümanlar arasında da bir takım ilişkiler kurulması gerekiyor. Bu yüzden hem yeni `wiki` içerikleri oluşturduğunu hem de var olan `wiki` lerin bazılarında düzenlemeler yaptığını fark ettim.
+
+![[Runtime_05.png]]
+
+Eklediğim blog yazıları bana ait olduğundan azçok içeriklerine de hakimim. Bu nedenle oluşan çalışmayı sorgulamak adına birkaç örnek prompt denedim.
+
+```text
+C# dilinde interface türleri ile soyutlamalar yapılabiliyor. Rust nesne yönelimli bir dil olarak tasarlanmamış olsa da soyutlamaları destekliyor mu? Destekliyorsa örnek bir kod parçası var mı?
+```
+
+![[Runtime_06.png]]
+
+devamı da var...
+
+![[Runtime_07.png]]
+
+etkileyici. Burada şu an için tek sorun örneğin doğru ama struct, trait vb enstrüman isimlendirmelerinin Türkçe yapılmış olması. Normalde blog içerisinde bu örnekler İngilizce isimlendirmelerden oluşuyor. 
+
+> **Gözlem:** Session içerisinde `Copilot` baktığı bazı tekrarlı işleri belleğe kayıt etmek istediğini belirtti. Bunu kabul ettikten sonra Wiki sayfaları üzerinden cevaplama süreleri de oldukça hızlandı.
 ## Görüşler
 
 Diyelim ki yeni bir programlama dilini öğrenmeye çalışıyorum. Bu amaçlar özet notlarım, örnek kod dosyalarım, grafik çizimleri, çeşitli referans pdf'lerim var. Tüm bu öğretim yolculuğunda LLM odaklı bir wiki'ye ihtiyacım varsa pekala işime yarar. Peki ya bir kurum içerisindeki binlerce analiz dokümanı, wireframe, kod parçası bu senaryo özelinde değerlendirilebilir mi? Buraya bir soru işareti bırakmak yerinde olacaktır. Bana kalırsa;
