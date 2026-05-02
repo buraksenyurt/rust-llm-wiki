@@ -1,23 +1,25 @@
 # Sahiplik ve Borçlanma
 
-**Özet**: Bu sayfa, Rust'ın sahiplik ve borçlanma modelinin bellek güvenliği, API tasarımı ve performans üzerindeki etkisini toplu biçimde özetler.
+**Özet**: Bu sayfa, Rust'ta sahiplik, borçlanma, move semantiği ve yaşam süresi kurallarının nasıl birlikte çalıştığını toplu biçimde özetler.
 
-**Kaynaklar**: `2025-02-14-rust-ve-guvenli-bellek-yonetimi-hakkinda.md`, `2025-10-25-rust-ile-kodlama-idmanlari-baslangic-seviyesi.md`, `2026-01-15-bunu-bir-dene-00-metot-argumanlarinda-degisiklik-c-rust-ve-zig.md`, `2026-02-15-bunu-bir-dene-01-coklu-thread-ortamlarinda-ortak-veriyi-degistirmek-c-rust-ve-zig.md`
+**Kaynaklar**: `2021-12-24-programcidan-programciya-rust.md`, `2022-03-06-rust-pratikleri-lifetimes-mevzusu.md`, `2022-04-03-rust-pratikleri-ayni-anda-sadece-tek-bir-degistirilebilir-referans-olabilir.md`, `2022-04-17-rust-pratikleri-degiskenleri-kopyalayarak-veya-referans-olarak-tasimak.md`, `2022-05-22-rust-pratikleri-value-moved-here.md`, `2025-02-14-rust-ve-guvenli-bellek-yonetimi-hakkinda.md`, `2025-10-25-rust-ile-kodlama-idmanlari-baslangic-seviyesi.md`, `2026-01-15-bunu-bir-dene-00-metot-argumanlarinda-degisiklik-c-rust-ve-zig.md`, `2026-02-15-bunu-bir-dene-01-coklu-thread-ortamlarinda-ortak-veriyi-degistirmek-c-rust-ve-zig.md`
 
-**Son güncelleme**: 2026-05-01
+**Son güncelleme**: 2026-05-02
 
 ---
 
 ## Temel noktalar
 
-- Rust'ta bir değerin sahipliği belirli bir anda tek bir yerde tutulur; bu ilke, bellek güvenliğinin omurgası olarak ownership ve borrow checker ile birlikte anlatılır (kaynak: 2025-02-14-rust-ve-guvenli-bellek-yonetimi-hakkinda.md).
-- Bir değeri başka fonksiyona taşımak, orijinal değişkenin artık kullanılamaması sonucunu doğurabilir; 2026-01-15 tarihli karşılaştırma yazısı bunu metot argümanları üzerinden açık örnekle gösterir (kaynak: 2026-01-15-bunu-bir-dene-00-metot-argumanlarinda-degisiklik-c-rust-ve-zig.md).
-- Değiştirilebilir erişim niyeti Rust'ta açıkça `&mut` ile belirtilir; yalnızca değişkeni `mut` tanımlamak bu niyetin başka fonksiyona otomatik taşındığı anlamına gelmez (kaynak: 2026-01-15-bunu-bir-dene-00-metot-argumanlarinda-degisiklik-c-rust-ve-zig.md).
-- Başlangıç seviyesi pratikler yazısı, gereksiz `clone` çağrılarını azaltmak için referans ve slice kullanımını; sahipliği korumak gerektiğinde veri yerine referans aktarmayı önerir (kaynak: 2025-10-25-rust-ile-kodlama-idmanlari-baslangic-seviyesi.md).
-- Çoklu thread senaryolarında sahiplik ilkesi ortadan kalkmaz; yalnızca Arc gibi araçlarla çoklu sahiplik açık biçimde modellenir ve mutasyon gerekiyorsa bu, Mutex gibi ek bir katmanla güvenli hale getirilir (kaynak: 2026-02-15-bunu-bir-dene-01-coklu-thread-ortamlarinda-ortak-veriyi-degistirmek-c-rust-ve-zig.md).
+- Rust'ta bir değerin sahibi aynı anda tektir; bu ilke, borrow checker ve scope sonu temizliğiyle birlikte bellek güvenliğinin omurgasını oluşturur (kaynak: 2021-12-24-programcidan-programciya-rust.md) (kaynak: 2025-02-14-rust-ve-guvenli-bellek-yonetimi-hakkinda.md).
+- Move semantiği nedeniyle `String` gibi heap tabanlı değerler atama veya fonksiyon çağrısı ile taşınabilir; gerekirse sahipliği geri döndürmek, referans geçirmek ya da uygun yerde `Clone` ve `Copy` kullanmak gerekir (kaynak: 2022-04-17-rust-pratikleri-degiskenleri-kopyalayarak-veya-referans-olarak-tasimak.md) (kaynak: 2022-05-22-rust-pratikleri-value-moved-here.md).
+- Değiştirilebilir erişim niyeti Rust'ta açıkça `&mut` ile ifade edilir; bir değişkeni `mut` tanımlamak tek başına başka fonksiyonların onu değiştirebileceği anlamına gelmez (kaynak: 2026-01-15-bunu-bir-dene-00-metot-argumanlarinda-degisiklik-c-rust-ve-zig.md).
+- Lifetime kuralları, referansların geçerli yaşam aralığını görünür hale getirerek dangling pointer oluşmasını engeller; bu yüzden `String` ile `&str` seçimi hem güvenlik hem performans konusudur (kaynak: 2022-03-06-rust-pratikleri-lifetimes-mevzusu.md).
+- "Aynı anda tek bir değiştirilebilir referans" kuralı yalnızca tek thread için değil, çoklu thread akışında da etkilidir; paylaşım gerektiğinde Arc ile çoklu sahiplik, Mutex ile kontrollü mutasyon tercih edilir (kaynak: 2022-04-03-rust-pratikleri-ayni-anda-sadece-tek-bir-degistirilebilir-referans-olabilir.md) (kaynak: 2026-02-15-bunu-bir-dene-01-coklu-thread-ortamlarinda-ortak-veriyi-degistirmek-c-rust-ve-zig.md).
+- Başlangıç seviyesi pratikler, gereksiz `clone` çağrılarını azaltmak için slice ve referans kullanımını; veri sahipliğini korumak gerektiğinde mümkün olduğunca kopya yerine ödünç verme yaklaşımını önerir (kaynak: 2025-10-25-rust-ile-kodlama-idmanlari-baslangic-seviyesi.md).
 
 ## İlgili sayfalar
 
 - [[bellek-guvenligi]]
-- [[enum-ile-durum-modelleme]]
+- [[lifetimes-ve-string-slice]]
 - [[eszamanlilik-ve-paylasilan-durum]]
+- [[gdb-ile-debugging]]
