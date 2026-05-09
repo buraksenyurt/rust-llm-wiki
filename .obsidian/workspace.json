@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "raw/_posts/2026-05-09-rust-phantom-data.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "2026-05-09-rust-phantom-data"
             }
           }
         ]
@@ -182,8 +182,8 @@
   },
   "active": "d9d345d962c0d438",
   "lastOpenFiles": [
-    "Runtime_09.png",
     "README.md",
+    "Runtime_09.png",
     "Runtime_08.png",
     "raw/_posts/2025-02-12-enum-veri-turunun-rust-tarafinda-etkili-bir-kullanimi.md",
     "wiki/bellek-guvenligi.md",

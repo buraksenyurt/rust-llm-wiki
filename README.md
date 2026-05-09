@@ -64,7 +64,7 @@ Bu kullanımda işin güzel yanı içerikteki ilişkilerin **Obsidian** üzerind
 Bir süre sonra `raw` klasörüne yeni dokümanlar ekledim ve `Copilot`'a aşağıdaki prompt' u vererek wiki'yi güncellemesini istedim.
 
 ```text
-Yeni blog post girdileri ekledim. Buna göre  wiki'yi günceller misin?
+Yeni blog post girdileri ekledim. Buna göre wiki'yi günceller misin?
 ```
 
 Bu yeni talebe istinaden öncelike `COPILOT.md` dosyasını okuyarak işe başlaması daha önceden belirlenen talimatlara bağlı kalarak hareket ettiğini ispat eder nitelikteydi. Tabii var olan dokümanlar ile yeni eklenen dokümanlar arasında da bir takım ilişkiler kurulması gerekiyor. Bu yüzden hem yeni `wiki` içerikleri oluşturduğunu hem de var olan `wiki` lerin bazılarında düzenlemeler yaptığını fark ettim.
