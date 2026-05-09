@@ -20,6 +20,7 @@
 - [[enum-ile-durum-modelleme]] — Enum, state pattern ve typestate ile geçersiz durumları azaltan modelleme yaklaşımı (kaynak: 2022-05-15-rust-pratikleri-state-tasarim-kalibi.md) (kaynak: 2025-02-12-enum-veri-turunun-rust-tarafinda-etkili-bir-kullanimi.md).
 - [[bellek-optimizasyonu]] — CoW, arena allocator, atomikler ve veri yerleşimi odaklı performans notları (kaynak: 2025-04-03-bellek-yonetiminde-verimlilik-icin-ipuclari-rust-odakli.md) (kaynak: 2025-12-01-rust-ile-kodlama-idmanlari-ileri-seviye.md).
 - [[csharp-rust-zig-karsilastirmalari]] — Aynı problem sınıflarının üç dilde farklı çözüm yolları (kaynak: 2026-01-15-bunu-bir-dene-00-metot-argumanlarinda-degisiklik-c-rust-ve-zig.md) (kaynak: 2026-02-15-bunu-bir-dene-01-coklu-thread-ortamlarinda-ortak-veriyi-degistirmek-c-rust-ve-zig.md).
+- [[phantom-data]] — `PhantomData<T>` ile derleme zamanı tür güvenliği, ZST, drop check ve variance kalıpları (kaynak: 2026-05-09-rust-phantom-data.md).
 
 ## Kaynak özetleri
 
@@ -47,6 +48,7 @@
 - [[rust-ile-kodlama-idmanlari-ileri-seviye]] — Unsafe soyutlamalar, typestate, anyhow ve eşzamanlılık garantileri (kaynak: 2025-12-01-rust-ile-kodlama-idmanlari-ileri-seviye.md).
 - [[bunu-bir-dene-00-metot-argumanlarinda-degisiklik-c-rust-ve-zig]] — C#, Rust ve Zig'de metot argümanları, `&mut` ve pointer üzerinden durum değiştirme farkları (kaynak: 2026-01-15-bunu-bir-dene-00-metot-argumanlarinda-degisiklik-c-rust-ve-zig.md).
 - [[bunu-bir-dene-01-coklu-thread-ortamlarinda-ortak-veriyi-degistirmek-c-rust-ve-zig]] — Çoklu thread ortamında paylaşılan veri yönetimi karşılaştırması (kaynak: 2026-02-15-bunu-bir-dene-01-coklu-thread-ortamlarinda-ortak-veriyi-degistirmek-c-rust-ve-zig.md).
+- [[rust-phantom-data]] — PhantomData, ZST, tür güvenliği, drop check ve variance kalıplarının kaynak özeti (kaynak: 2026-05-09-rust-phantom-data.md).
 
 ## Öğrenme akışı
 
@@ -75,3 +77,4 @@
 23. [[rust-ile-kodlama-idmanlari-ileri-seviye]]
 24. [[bunu-bir-dene-00-metot-argumanlarinda-degisiklik-c-rust-ve-zig]]
 25. [[bunu-bir-dene-01-coklu-thread-ortamlarinda-ortak-veriyi-degistirmek-c-rust-ve-zig]]
+26. [[phantom-data]]
