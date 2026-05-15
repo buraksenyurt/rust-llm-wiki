@@ -16,3 +16,9 @@
 - PhantomData ve Zero-Sized Types kavramlarını, derleme zamanı tür güvenliğini, unsafe drop check ve variance kalıplarını kapsayan `wiki/phantom-data.md` kavram sayfası eklendi.
 - `wiki/index.md` dosyası yeni kavram ve kaynak özeti sayfasıyla güncellendi; öğrenme akışına `[[phantom-data]]` eklendi.
 
+## 2026-05-15
+
+- `wiki/sahiplik-ve-borclanma.md` sayfası `2025-04-03-bellek-yonetiminde-verimlilik-icin-ipuclari-rust-odakli.md` kaynağından `Cow<T>` (Clone on Write) ile ilgili yeni bir madde eklenerek zenginleştirildi.
+- Kaynak listesine `2025-04-03` eklendi; `[[bellek-optimizasyonu]]` wikilink bağlantısı kuruldu.
+- Wiki lint denetimi uygulandı: `phantom-data.md` ve `rust-phantom-data.md` sayfalarında `**Kaynaklar**` backtick biçim eksikliği giderildi; `phantom-data.md`'deki kaynak atıfsız olgusal maddeler `(kaynak: 2026-05-09-rust-phantom-data.md)` ile tamamlandı.
+

@@ -2,7 +2,7 @@
 
 **Özet**: `PhantomData<T>` yapısının ne olduğunu, neden gerektiğini ve nasıl kullanıldığını; Zero-Sized Types (ZST), derleme zamanı tür güvenliği, unsafe kod alanlarında drop check ve variance kalıpları üzerinden açıklayan kaynak özeti.
 
-**Kaynaklar**: 2026-05-09-rust-phantom-data.md
+**Kaynaklar**: `2026-05-09-rust-phantom-data.md`
 
 **Son güncelleme**: 2026-05-09
 
